@@ -72,5 +72,7 @@ module.exports = function(pollInterval){
     if(timer) timer.unref();
   });
 
+  s.boards = data;
+
   return s;
 }
