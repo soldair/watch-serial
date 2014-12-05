@@ -6,7 +6,8 @@ var open = false;
 
 changes.on('data',function(data){
 
-  console.log(data);
+
+  console.log(data.device.pnpId);
   return;
 
   if(data.event == "plug" && !open){

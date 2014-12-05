@@ -40,7 +40,8 @@ module.exports = function(pollInterval){
 
         var found = {};
         list.forEach(function(device){
-          var id = device.comName+'|'+device.manufacturer+'|'+device.pnpId;
+          var id = device.comName+'|'+device.manufacturer+'|'+(device.pnpId||device.serialNumber||Date.now());
+          device._id = id;
           found[id] = 1;
 
           if(!data[id]){
