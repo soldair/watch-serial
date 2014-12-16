@@ -1,7 +1,7 @@
 {
   "name": "watch-serial",
   "description": "watch for new serial devices. stream with plug/unplg events",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "url": "git://github.com/soldair/watch-serial.git"
   },
@@ -11,7 +11,7 @@
   },
   "author": "Ryan Day",
   "dependencies": {
-    "serialport": "~1.4.6",
+    "serialport": "~1.4.9",
     "through": "~2.3.6"
   },
   "devDependencies": {
