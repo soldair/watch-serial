@@ -1,7 +1,7 @@
 {
   "name": "watch-serial",
   "description": "watch for new serial devices. stream with plug/unplg events",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "url": "git://github.com/soldair/watch-serial.git"
   },

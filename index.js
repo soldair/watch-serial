@@ -75,5 +75,9 @@ module.exports = function(pollInterval){
 
   s.boards = data;
 
+
   return s;
 }
+
+
+module.exports.serialport = sp;
